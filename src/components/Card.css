@@ -1,0 +1,45 @@
+.Card {
+    width: 175px;
+    margin: 20px;
+    font-size: 12px;
+    min-width: 175px;
+    position: relative;
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card--ratings {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.card--ratings--star {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.card--price {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.card--price--bold {
+    font-weight: bold;
+}
+
+.card--freeSpots {
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    padding: 2px;
+    border-radius: 2px;
+}
